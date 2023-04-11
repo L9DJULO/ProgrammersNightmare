@@ -3,11 +3,14 @@ html,body, footer {
 }
 
 footer {
+  position: absolute;
+  bottom: -10;
   text-align: center;
   padding: 3px;
   background-color: lightgrey;
   border-radius: 10px 10px 10px 10px;
   color: black;
+  width: 99%;
 }
 
 /*DISPLAY*/
