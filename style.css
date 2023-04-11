@@ -1,0 +1,94 @@
+html,body, footer {
+  font-family: Raleway;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: lightgrey;
+  border-radius: 10px 10px 10px 10px;
+  color: black;
+}
+
+/*DISPLAY*/
+.flexCenter {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexColumnCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexColumnAround {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flexColumnBetween {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*NAV*/
+.sizeNav {
+  height: 100px;
+}
+
+.sizeLinks {
+  width: 25%;
+}
+
+.sizeLink {
+  width: 140px;
+  height: 99px;
+}
+
+.decorationNone {
+  text-decoration: none;
+}
+
+.borderNav {
+  border-top: 1px solid blue;
+}
+
+
+/* COLORS */
+
+.color-blue {
+  color: #0065fc;
+}
+.color-grey {
+  color: #f2f2f2;
+}
+.back-blue {
+  background-color: #0065fc;
+}
+.back-blueC {
+  background-color: #deebff;
+}
+.back-grey {
+  background-color: #f2f2f2;
+}
+
+.bold-text {
+  font-weight: bold;
+}
